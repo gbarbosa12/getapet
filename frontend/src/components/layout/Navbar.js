@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav>
       <div>
-        <img src="{Logo}" alt="Get A Pet" />
+        <img src={Logo} alt="Get A Pet" />
         <h2>Get A Pet</h2>
       </div>
       <ul>
