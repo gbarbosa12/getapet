@@ -9,6 +9,7 @@ import Login from "./components/pages/Auth/Login";
 import Register from "./components/pages/Auth/Register";
 import Home from "./components/pages/Auth/Home";
 import Container from "./components/layout/Container";
+import Message from "./components/layout/Message";
 
 // context
 import { UserProvider } from "./context/UserContext";
@@ -18,6 +19,7 @@ function App() {
     <Router>
       <UserProvider>
         <Navbar />
+        <Message />
         <Container>
           <Routes>
             <Route path="/login" element={<Login />} />
